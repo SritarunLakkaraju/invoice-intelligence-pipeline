@@ -1,0 +1,36 @@
+{
+  "documents": 120,
+  "field_accuracy": {
+    "invoice_number": 1.0,
+    "invoice_date": 1.0,
+    "vendor_name": 1.0,
+    "vendor_gstin": 1.0,
+    "buyer_gstin": 1.0,
+    "subtotal": 1.0,
+    "tax": 1.0,
+    "total": 1.0,
+    "line_items": 1.0
+  },
+  "overall_field_accuracy": 1.0,
+  "automated_pct": 90.0,
+  "planted_problems": 12,
+  "review_recall": 1.0,
+  "review_precision": 1.0,
+  "unseen_layout": {
+    "documents": 10,
+    "auto_approved": 0
+  },
+  "idempotency": {
+    "rows_before": 120,
+    "rows_after_reupload_30": 120
+  },
+  "poison_message": {
+    "dead_lettered": 1,
+    "attempts": 5
+  },
+  "ms_per_doc": {
+    "mean": 19.05,
+    "p95": 33.54
+  },
+  "est_cloud_run_compute_usd_per_1000_docs": 0.000481
+}
